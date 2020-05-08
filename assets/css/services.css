@@ -1,0 +1,56 @@
+.services-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.services h2 {
+    display: inline-block;
+    /* text-transform: uppercase; */
+    border-bottom: 4px solid #1B9CFC;
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-weight: normal;
+    color: #5f5d60;
+}
+
+.cen {
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.service {
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.service:hover {
+    background-color: #f7f7f7;
+}
+
+.service i {
+    color: #1B9CFC;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
